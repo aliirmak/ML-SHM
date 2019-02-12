@@ -3,7 +3,7 @@ import numpy as np
 
 eng = matlab.engine.start_matlab()
 
-filepathgen = r"C:\Users\Ali\OneDrive - Vanderbilt\Summer Research\cantilever_model_40_v2\NExT ERA_DC"
+filepathgen = r"C:\Users\Ali\cantilever_model_40_v2\NExT ERA_DC"
 eng.addpath(eng.genpath(filepathgen));
 eng.prepoolsetup(nargout=0)
 
