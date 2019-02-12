@@ -4,7 +4,7 @@ Using Machine Learning to eliminate temperature variability in SHM applications
 The following order is suggested to run the files:
 * Make sure data and eq folder are created with three folders (1, 2, and 3) in them. Each folder is related to a damage condition.
 * Download *OpenSees* excecutable file and *tcl/tk* package from http://opensees.berkeley.edu/OpenSees/user/download.php
-* Put the *OpenSees.exe* into folder where ou will run the scripts. Add *tcl/tk* to path if it is not added already.
+* Put the *OpenSees.exe* into folder where you will run the scripts. Add *tcl/tk* to path if it is not added already.
 * Some documents require MATLAB. Make sure MATLAB installed. The code is tested in 2018b.
 * Make sure *Anaconda*(https://www.anaconda.com/distribution/#download-section) is installed. Moreover, *Keras* (https://keras.io/) and *Tensorflow* (https://www.tensorflow.org/install/) should be installed. The code is only tested for *Python 3.6.7*.
 * Run **temp_generator.py** to generate reference temperatures. This will create *T.txt* file for each damage condition.
