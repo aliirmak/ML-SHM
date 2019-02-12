@@ -21,4 +21,5 @@ This pipeline will generate 200 GB of data.
 * The SHM data is provided here
 https://www.lanl.gov/projects/national-security-education-center/engineering/software/shm-data-sets-and-software.php under SHMTools Additional Datasets.
 * Put the contents of *SHMToolsAdditionalDatasets.zip* into folder where you will run the scripts.
+* Run **test_data.m** to obtain frequencies and mode shapes from structural responses. This step requires *MATLAB* as it utilizes NExT-ERA files written by Dyke, Caicedo, and Giraldo.
 * Run **pca_paper_version.py** or **aann_3freqmodes_era_final_paper_version.py** to generate the novelty index.
