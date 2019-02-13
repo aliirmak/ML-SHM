@@ -1,9 +1,9 @@
 # ML-SHM
-Using Machine Learning to eliminate temperature variability in SHM applications
+This repo contains the pipeline code for the paper "Machine Learning based Novelty Detection using Modal Analysis"
 
-## Before running on pipeline
+## Before running pipeline
 The following order is suggested to run the files. 
-* Some documents require MATLAB. Make sure MATLAB installed. The code is tested in 2018b.
+* Some documents require MATLAB. Make sure MATLAB installed. The code is tested in version 2018b.
 * Make sure *Anaconda*(https://www.anaconda.com/distribution/#download-section) is installed. Moreover, *Keras* (https://keras.io/) and *Tensorflow* (https://www.tensorflow.org/install/) should be installed. The code is only tested for *Python 3.6.7*.
 
 ## Analytical Example
@@ -20,6 +20,6 @@ This pipeline will generate 200 GB of data.
 ## Experimental Example
 * The SHM data is provided here
 https://www.lanl.gov/projects/national-security-education-center/engineering/software/shm-data-sets-and-software.php under SHMTools Additional Datasets.
-* Put the contents of *SHMToolsAdditionalDatasets.zip* into folder where you will run the scripts.
-* Run **test_data.m** to obtain frequencies and mode shapes from structural responses. This step requires *MATLAB* as it utilizes NExT-ERA files written by Dyke, Caicedo, and Giraldo.
+* Extract the contents of *SHMToolsAdditionalDatasets.zip* into folder where you will run the scripts.
+* Run **test_data.m** to obtain frequencies and mode shapes from structural responses. This step requires *MATLAB* as it utilizes NExT-ERA files written by Dyke, Caicedo, and Giraldo for their Benchmark structure.
 * Run **pca_paper_version.py** or **aann_3freqmodes_era_final_paper_version.py** to generate the novelty index.
